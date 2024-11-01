@@ -1,5 +1,5 @@
 import { Link } from "wouter"
-import useFetch from "../Hooks/useFetch"
+import useFetch from "../hooks/useFetch"
 import Loader from "../components/Loader"
 
 export default function Home() {
