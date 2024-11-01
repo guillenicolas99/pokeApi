@@ -1,8 +1,8 @@
 import { Link, Route, useLocation } from 'wouter'
 import './App.css'
-import Details from './pages/detail'
+import Details from './pages/Detail'
 import Home from './pages/Home'
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 function App() {
   const [search, setSearch] = useState('')
